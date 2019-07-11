@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -30,4 +31,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+img {
+  width: 300px;
+}
+
+.ui.fluid.image {
+  width: 200px;
+  height: 400px;
+}
+
+.page {
+  margin-top: 50px;
+}
+
+.nasa-picture {
+  height: 500px;
+  width: 750.49px;
 }

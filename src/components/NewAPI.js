@@ -4,7 +4,7 @@ import Date from './Date'
 import Explanation from './Explanation'
 import Title from './Title'
 import Video from './Video'
-import { Button, Header, Image, Modal } from 'semantic-ui-react'
+import { Button, Header, Modal } from 'semantic-ui-react'
 
 const NewAPI = (props) => {
     const [newPicture, setNewPicture] = useState([])
@@ -23,10 +23,10 @@ const NewAPI = (props) => {
             <h3>Second API</h3>
              <Modal trigger={<Button>Click here for more info</Button>}>
                 <Modal.Header>NASA API Info</Modal.Header>
-                <Modal.Content video>
+                <Modal.Content video >
                 <Video video={newPicture.url} />
                 <Modal.Description>
-                    <Header><Title title={newPicture.title} /></Header>
+                    <Header centered><Title title={newPicture.title} /></Header>
                     <Date date={newPicture.date}/>
                     <Explanation explanation={newPicture.explanation} />
                 </Modal.Description>
