@@ -1,5 +1,5 @@
 import React from "react";
-import { Route } from 'react-router-dom'
+import { Route, BrowserRouter as Router } from 'react-router-dom'
 import "./App.css";
 import 'semantic-ui-css/semantic.min.css'
 import FirstAPI from './components/FirstAPI'
@@ -10,10 +10,11 @@ function App() {
  
   return (
     <div className="App">
+      <Router>
       <Route  path="/" component={Nav} />
       <Route  path="/firstAPI" component={FirstAPI} />
       <Route  path="/newAPI" component={NewAPI} />
-      
+      </Router>
     </div>
   );
 }
