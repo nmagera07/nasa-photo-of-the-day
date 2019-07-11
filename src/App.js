@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import axios from 'axios'
 import { Route } from 'react-router-dom'
 import "./App.css";
+import 'semantic-ui-css/semantic.min.css'
 import FirstAPI from './components/FirstAPI'
 import NewAPI from './components/NewAPI'
 import Nav from './components/Nav'
