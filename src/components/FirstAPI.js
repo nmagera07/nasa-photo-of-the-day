@@ -16,7 +16,9 @@ function FirstAPI() {
       .catch(error => console.log("things went south"))
   }, [])
 
- 
+  if (!picture) {
+     return <h2>Loading</h2>
+  }
   
   return (
     
