@@ -16,7 +16,7 @@ const Nav = (props) => {
             </Menu>
             <div className="page">
             <h1>Welcome to the NASA API Page</h1>
-            <img src="https://api.nasa.gov/images/logo.png" alt="nasa logo"></img>
+            <img src="https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png" alt="nasa logo"></img>
             </div>
         </div>
      );
